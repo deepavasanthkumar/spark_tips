@@ -1,0 +1,7 @@
+RDD, is merely a Resilient Distributed Dataset that is more of a blackbox of data that cannot be optimized as the operations that can be performed against it, are not as constrained.
+However, you can go from a DataFrame to an RDD via its rdd method, and you can go from an RDD to a DataFrame
+
+A data frame is a table, or two-dimensional array-like structure, in which each column contains measurements on one variable, and each row contains one case.
+
+Dataset API is an extension to DataFrames that provides a type-safe, object-oriented programming interface. It is a strongly-typed, immutable collection of objects that are mapped to a relational schema.
+The Datasets API brings in several advantages over the existing RDD and Dataframe API with better type safety and functional programming.With the challenge of type casting requirements in the API, you would still not the required type safety and will make your code brittle.
